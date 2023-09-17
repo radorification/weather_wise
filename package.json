@@ -1,0 +1,22 @@
+{
+  "name": "weather-wise",
+  "version": "1.0.0",
+  "description": "Get real-time weather updates for any location. Check current conditions, forecasts, and receive weather alerts, all in one simple and intuitive app. Stay prepared with WeatherWise.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.3.1",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "node-fetch": "^2.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
